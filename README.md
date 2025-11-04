@@ -11,7 +11,7 @@ This project is part of the 42 Network curriculum, focusing on network programmi
 
 - Full implementation in C++98, with no external libraries
 
-- Handles multiple clients simultaneously using poll(), select(), epoll(), or kqueue()
+- Handles multiple clients simultaneously using epoll()
 
 - Non-blocking I/O — the server never blocks on reads or writes
 
