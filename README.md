@@ -63,3 +63,29 @@ The configuration file defines:
 - Optional redirections
 
 - Directory listing toggle
+
+Example : 
+
+```
+server 
+{
+  listen localhost:8001;
+  server_name webserv;
+  client_max_body_size 100m;
+  cgi_path /usr/bin/python3 /usr/bin/php /bin/bash;
+  cgi_ext .py .php .sh;
+  cgi_dir /cgi-bin;
+  root /home/maglagal/Desktop/webserv;
+  autoindex on;
+  
+  location /assets {
+      index mm.html;
+  }
+  location /Uploads {
+      root /home/maglagal/goinfre;
+      upload_path Uploads;
+      allowed_methods GET POST DELETE;
+  }
+}
+```
+
