@@ -6,6 +6,7 @@ The goal of this project is to understand and implement the core of the HTTP pro
 This project is part of the 42 Network curriculum, focusing on network programming, I/O multiplexing, and system-level C++ development.
 
 ⚙️ Features
+
 🧱 Core Functionality
 
 - Full implementation in C++98, with no external libraries
