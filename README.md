@@ -64,6 +64,12 @@ The configuration file defines:
 
 - Directory listing toggle
 
+🍪 Cookie and Session Management
+- Persistent sessions across requests, managed via cookies with proper expiration and validation.
+
+⚙️ Multiple CGI Types Supported
+- Fully functional CGI execution for multiple interpreters — including Python and PHP — with correct environment variable handling and response parsing.
+
 Example : 
 
 ```
